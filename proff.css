@@ -1,0 +1,53 @@
+
+
+#button1 {
+    width: 307px;
+    height: 307px;
+   
+    flex-direction: row;
+    background-image: url(./assets/product1.jpg);
+    padding: 10px;
+    justify-content: flex-start;
+    align-items: flex-end;
+    overflow: hidden;
+   
+    
+}
+
+
+.moveup {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    transition: transform 1s;
+    align-items: flex-end;
+    height: 150%;
+}
+
+
+#button1 button {
+    background-color: black;
+    color: aliceblue;
+    border-style: none;
+    border-radius: 0.4rem;
+    height: 50px;
+    padding: 0px;
+
+}
+
+
+#button1 svg {
+    width: 50px;
+   
+}
+
+.addtocart {
+    margin-left: 10px;
+    width: 100%; 
+    
+}
+
+
+.moveup:hover {
+    transform: translate(0px, -34%);}
+

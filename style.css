@@ -81,7 +81,7 @@ nav {
     flex-direction: column;
 }
 .hero img {
-    width: 100vw;
+    width: 100%;
     margin-bottom: 0;
 }
 
@@ -103,14 +103,44 @@ main .shop {
     display: flex;
     justify-content: center;
     margin-bottom: 5px;
-    padding 2px
+    padding :2px;
     letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 32px;
+
 }
+
+
 
 .shop .navTab {
     display: flex;
     text-transform: uppercase;
+    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.navTab a {
     text-decoration: none;
+    margin: 0px 32px 0px 0px;
+    padding: 12px 0px;
+}
+
+.shop .productBlock {
+    display: flex;
+    }
+
+.productBlock div {
+    margin: 12px;
+}
+.productBlock #product1 {
+    margin-left: 0;
+}
+
+.productBlock {
+    width: 100%;
+    overflow: hidden;
 }
 
 
