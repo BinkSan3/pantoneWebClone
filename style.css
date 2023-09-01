@@ -1,0 +1,133 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    background-color: blueviolet;
+    margin: 0;
+    font-family:  'Roboto', sans-serif;
+}
+
+header .top {
+    background-color: black;
+    color: white;
+    padding: 0.6rem 0px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+  
+}
+
+.top {
+    font-size: 12px;
+    letter-spacing: 0.3px;
+}
+.bannerText, .top #right{
+    padding: 0px 15px;
+}
+.bannerText {
+    border-right: 0.05rem solid rgb(255, 255, 255);
+}
+.top #right {
+    text-decoration: none;
+    color: white;
+}
+
+.top #mid {
+    color: white;
+}
+
+nav {
+    border-bottom: 0.1rem solid rgb(0, 0, 0);
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 0px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.midleft {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+#navlogo img {
+    filter: invert(1);
+    padding: 24px 0px;
+
+}
+
+#navBar {
+    margin-left: 49px;
+    text-transform: uppercase;
+
+    
+}
+#navBar a {
+    text-decoration: none;
+    color: black;
+    margin: 0px 10px;
+}
+
+
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+.hero img {
+    width: 100vw;
+    margin-bottom: 0;
+}
+
+.hero .bottom {
+    color: white;
+    background-color: black;
+    padding: 8.75 17.5px;
+    display: flex;
+    justify-content: center;
+}
+
+
+main .shop {
+    margin: 60px 0px;
+    padding: 0px 10px 0px 42px;
+}
+
+.shop .first {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    padding 2px
+    letter-spacing: 1px;
+}
+
+.shop .navTab {
+    display: flex;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
