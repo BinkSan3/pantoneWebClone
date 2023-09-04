@@ -38,8 +38,7 @@ header .top {
     color: white;
 }
 
-
-
+ 
 nav {
     border-bottom: 0.1rem solid rgb(0, 0, 0);
     color: black;
@@ -48,9 +47,11 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* position:static;
-    width: 100%;
-    z-index: 100; */
+   /* this needs solving */
+    /* position:sticky;
+    z-index: 100;
+    top: 0; */
+   
 }
 
 .midleft {
