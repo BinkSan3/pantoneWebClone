@@ -38,6 +38,8 @@ header .top {
     color: white;
 }
 
+
+
 nav {
     border-bottom: 0.1rem solid rgb(0, 0, 0);
     color: black;
@@ -46,7 +48,9 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+    position:static;
+    width: 100%;
+    z-index: 100;
 }
 
 .midleft {
@@ -133,15 +137,66 @@ main .shop {
 
 .productBlock div {
     margin: 12px;
-}
-.productBlock #product1 {
-    margin-left: 0;
+    width: 307px;
+    height: 307px;
+
 }
 
 .productBlock {
     width: 100%;
     overflow: hidden;
 }
+
+/* product 1 */
+
+#product1 {
+    margin-left: 0;
+    margin-top: 0;
+    background-image: url(./assets/product1.jpg);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+   
+
+}
+
+#product1 button {
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    border: none;
+    border-radius: 0.4em;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+#product1 img {
+    padding: 10px;
+    color: #f0f0f0;
+}
+
+.block1 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+}
+
+#product1 .icon {
+    margin-left: 10px;
+}
+
+.atc {
+    width: 100%;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+
+
+
 
 
 
