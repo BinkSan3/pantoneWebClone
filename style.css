@@ -48,9 +48,9 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position:static;
+    /* position:static;
     width: 100%;
-    z-index: 100;
+    z-index: 100; */
 }
 
 .midleft {
@@ -145,22 +145,11 @@ main .shop {
 .productBlock {
     width: 100%;
     overflow: hidden;
-}
-
-/* product 1 */
-
-#product1 {
     margin-left: 0;
-    margin-top: 0;
-    background-image: url(./assets/product1.jpg);
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-   
-
 }
 
-#product1 button {
+
+.productBlock button {
     height: 50px;
     background-color: rgb(0, 0, 0);
     color: aliceblue;
@@ -170,19 +159,10 @@ main .shop {
     margin-bottom: 10px;
 }
 
-#product1 img {
-    padding: 10px;
-    color: #f0f0f0;
-}
 
-.block1 {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
 
-}
 
-#product1 .icon {
+.icon {
     margin-left: 10px;
 }
 
@@ -192,6 +172,86 @@ main .shop {
     margin-left: 10px;
     margin-right: 10px;
     
+}
+
+.productBlock img {
+    padding: 10px;
+}
+
+
+/* product 1 */
+
+.block1 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+#product1 {
+    margin-left: 0;
+    margin-top: 0;
+    background-image: url(./assets/product1.jpg);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+   
+}
+
+/* Product 2 */
+#product2 {
+    background-image: url(./assets/product2.jpg);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.block2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+/* Product 3 */
+#product3 {
+    background-image: url(./assets/product3.jpg);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.block3 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+/* Product 4 */
+#product4 {
+    background-image: url(./assets/product4.jpg);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.block4 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    height: 100px;
+    width: 100%;
 }
 
 
